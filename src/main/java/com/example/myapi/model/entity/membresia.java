@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import java.time.LocalDateTime;
 @Entity
 @Table(name = "membresias")
-public class membresia {
+public class Membresia {
 
     public enum TipoMembresiaEnum {
         SEMANAL,
